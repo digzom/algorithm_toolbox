@@ -7,10 +7,4 @@ defmodule Gcd do
   end
 end
 
-time_before = Time.utc_now()
-
-Gcd.find(3918848080, 1653264) |> IO.puts()
-
-time_after = Time.utc_now()
-
-Time.diff(time_after, time_before, :millisecond) |> IO.puts()
+Gcd.find(357, 234) |> IO.puts()
